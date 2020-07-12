@@ -1,5 +1,13 @@
 def turn(board)
   puts "Please enter 1-9:"
+  
+  loop do 
+    position += 1 
+    puts "Good! Next move."
+    if position < 10
+      break 
+    end
+  end
 end
 
 
