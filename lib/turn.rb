@@ -1,6 +1,5 @@
 def turn(board)
   puts "Please enter 1-9:"
-  puts "Good! Next move."
 end
 
 
