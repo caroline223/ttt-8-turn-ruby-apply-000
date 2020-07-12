@@ -2,6 +2,11 @@ def turn(board)
   puts "Please enter 1-9:"
   answer = gets.strip
   input_to_index(answer)
+  if on_board?(answer) == true
+    return true
+  else
+    return false 
+  end
 end
 
 
