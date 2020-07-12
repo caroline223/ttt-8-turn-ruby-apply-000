@@ -1,6 +1,7 @@
 def turn(board)
   puts "Please enter 1-9:"
   answer = gets.strip
+  input_to_index(answer)
 end
 
 
