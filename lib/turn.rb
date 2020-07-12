@@ -1,6 +1,11 @@
 def turn(board)
   puts "Please enter 1-9:"
   answer = gets.strip
+  if input_to_index?(player_input) == true
+    return "Good! Next move. "
+  else
+    return "Please try again."
+  end
 end
 
 
